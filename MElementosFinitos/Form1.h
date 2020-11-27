@@ -9,9 +9,9 @@ namespace CppCLRWinformsProjekt {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
-	/// <summary>
-	/// Zusammenfassung für Form1
-	/// </summary>
+		/// <summary>
+		/// Zusammenfassung für Form1
+		/// </summary>
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
 	public:
@@ -40,6 +40,7 @@ namespace CppCLRWinformsProjekt {
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	protected:
 
 	private:
@@ -61,6 +62,7 @@ namespace CppCLRWinformsProjekt {
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->SuspendLayout();
 			// 
 			// label1
@@ -111,13 +113,22 @@ namespace CppCLRWinformsProjekt {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->button1->Location = System::Drawing::Point(432, 188);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(131, 39);
 			this->button1->TabIndex = 5;
 			this->button1->Text = L"Aceptar";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
+			// 
+			// menuStrip1
+			// 
+			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
+			this->menuStrip1->Location = System::Drawing::Point(0, 0);
+			this->menuStrip1->Name = L"menuStrip1";
+			this->menuStrip1->Size = System::Drawing::Size(1060, 24);
+			this->menuStrip1->TabIndex = 6;
 			// 
 			// Form1
 			// 
@@ -130,6 +141,8 @@ namespace CppCLRWinformsProjekt {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->label1);
+			this->Controls->Add(this->menuStrip1);
+			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"Form1";
 			this->Text = L"Form1";
 			this->ResumeLayout(false);
@@ -148,6 +161,10 @@ namespace CppCLRWinformsProjekt {
 	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->label2->Visible = false;
+		this->textBox1->Visible = false;
+		this->label3->Visible = false;
+		this->textBox2->Visible = false;
 	}
 };
 }
