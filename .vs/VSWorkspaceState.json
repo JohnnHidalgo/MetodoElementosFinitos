@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MElementosFinitos"
+    "\\Debug",
+    "\\MElementosFinitos",
+    "\\MElementosFinitos\\Debug\\MElement.e38ac672.tlog",
+    "\\MElementosFinitos\\x64\\Debug\\MElement.e38ac672.tlog",
+    "\\x64\\Debug"
   ],
-  "SelectedNode": "\\MElementosFinitos\\Form1.h",
+  "SelectedNode": "\\MElementosFinitos\\Matrix.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -1,3 +1,13 @@
-﻿  CppCLR_WinformsProjekt.cpp
-  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  MElementosFinitos.vcxproj -> C:\Users\JOHNN HIDALGO\source\repos\MElementosFinitos\x64\Debug\MElementosFinitos.exe
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\CppCLR_WinformsProjekt.cpp(19,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\Matrix.cpp(250,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\Matrix.cpp(241): message : while compiling class template member function 'void Matrix<int>::fill_random(void)'
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\CppCLR_WinformsProjekt.cpp(42): message : see reference to function template instantiation 'void Matrix<int>::fill_random(void)' being compiled
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\CppCLR_WinformsProjekt.cpp(36): message : see reference to class template instantiation 'Matrix<int>' being compiled
+  Form1.cpp
+  Matrix.cpp
+  Generating Code...
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  MElementosFinitos.vcxproj -> C:\Users\ASUS\Source\Repos\MetodoElementosFinitos\x64\Debug\MElementosFinitos.exe

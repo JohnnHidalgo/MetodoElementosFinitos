@@ -1,3 +1,6 @@
 C:\Users\JOHNN HIDALGO\source\repos\MElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.vcxprojAssemblyReference.cache
 C:\Users\JOHNN HIDALGO\source\repos\MElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.Form1.resources
 C:\Users\JOHNN HIDALGO\source\repos\MElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.vcxproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.vcxprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.Form1.resources
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\x64\Debug\MElementosFinitos.vcxproj.GenerateResource.cache

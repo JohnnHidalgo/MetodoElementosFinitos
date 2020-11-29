@@ -1,0 +1,3 @@
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\Debug\MElementosFinitos.vcxprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\Debug\MElementosFinitos.Form1.resources
+C:\Users\ASUS\source\repos\MetodoElementosFinitos\MElementosFinitos\Debug\MElementosFinitos.vcxproj.GenerateResource.cache
